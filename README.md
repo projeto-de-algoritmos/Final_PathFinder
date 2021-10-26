@@ -1,45 +1,38 @@
-**!! Atenção: Renomeie o seu repositório para (Tema)_(NomeDoProjeto). !!** 
+# PathFinder
 
-Temas:
- - Grafos1
- - Grafos2
- - PD
- - D&C
- - Greed
- - Final 
- 
- **!! *Não coloque os nomes dos alunos no título do repositório*. Exemplo de título correto: Grafos2_Labirinto-do-Minotauro !!**
- 
- (Apague essa seção)
-
-# NomedoProjeto
-
-**Número da Lista**: X<br>
-**Conteúdo da Disciplina**: XXXXXXXXXX<br>
+Número da Lista: 15<br>
+Conteúdo da Disciplina: Trabalho final
 
 ## Alunos
-|Matrícula | Aluno |
-| -- | -- |
-| xx/xxxxxx  |  xxxx xxxx xxxxx |
-| xx/xxxxxx  |  xxxx xxxx xxxxx |
 
-## Sobre 
-Descreva os objetivos do seu projeto e como ele funciona. 
+| Matrícula  | Aluno                      |
+| ---------- | -------------------------- |
+| 18/0113151 | Eduardo Nunes Pícolo       |
+| 14/0065547 | Roberto Martins da Nóbrega |
+
+## Sobre
+
+Interface gráfica para demonstrar a eficiência do algoritmo de _Dijkstra_ em um labirinto gerado por _Recursive Division_ ao compararmos com um _Greedy Best First Search_.
 
 ## Screenshots
-Adicione 3 ou mais screenshots do projeto em funcionamento.
 
-## Instalação 
-**Linguagem**: xxxxxx<br>
-**Framework**: (caso exista)<br>
-Descreva os pré-requisitos para rodar o seu projeto e os comandos necessários.
+![imagem](/public/screenshot.png)
 
-## Uso 
-Explique como usar seu projeto caso haja algum passo a passo após o comando de execução.
+## Instalação
 
-## Outros 
-Quaisquer outras informações sobre seu projeto podem ser descritas abaixo.
+Framework: Next JS<br>
+Linguagem: TypeScript<br>
 
+Para rodar o projeto, você precisa seguir as seguintes instruções:
 
+1. Clonar o repositório
 
+https://github.com/projeto-de-algoritmos/Final_PathFinder.git
 
+2. Entrar na pasta e instalar as dependências:
+
+yarn install
+
+3. Inicializar a aplicação
+
+yarn dev

@@ -13,7 +13,7 @@ function App({ Component, pageProps, router }: AppProps) {
   return (
     <>
       <Head>
-        <title>Mychine</title>
+        <title>Pathfinder</title>
       </Head>
       <NextNprogress
         color="linear-gradient(
